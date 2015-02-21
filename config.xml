@@ -10,6 +10,14 @@
     <content src="index.html" />
     <access origin="*" />
     
+    <platform name="android">
+        <icon src="resources/android/drawable-mdpi/ic_launcher.png" density="mdpi" />
+        <icon src="resources/android/drawable-hdpi/ic_launcher.png" density="hdpi" />
+        <icon src="resources/android/drawable-xhdpi/ic_launcher.png" density="xhdpi" />
+        <icon src="resources/android/drawable-xxhdpi/ic_launcher.png" density="xxhdpi" />
+        <icon src="resources/android/drawable-xxxhdpi/ic_launcher.png" density="xxxhdpi" />
+    </platform>
+    
     <platform name="ios">
         <!-- iOS 8.0+ -->
         <icon src="resources/ios/icons/Icon-60@3x.png" width="180" height="180" />
@@ -49,11 +57,4 @@
         <splash src="resources/ios/splash/iPhone-2208x1242.png" width="2208" height="1242"/>
     </platform>
 
-    <platform name="android">
-        <icon src="resources/android/drawable-mdpi/ic_launcher.png" density="mdpi" />
-        <icon src="resources/android/drawable-hdpi/ic_launcher.png" density="hdpi" />
-        <icon src="resources/android/drawable-xhdpi/ic_launcher.png" density="xhdpi" />
-        <icon src="resources/android/drawable-xxhdpi/ic_launcher.png" density="xxhdpi" />
-        <icon src="resources/android/drawable-xxxhdpi/ic_launcher.png" density="xxxhdpi" />
-    </platform>
 </widget>
