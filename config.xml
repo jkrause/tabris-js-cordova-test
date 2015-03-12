@@ -17,6 +17,8 @@
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="nl.x-services.plugins.toast" />
     
+    <preference name="EnableDeveloperConsole" value="true"/>
+    
     <platform name="android">
         <icon src="resources/android/drawable-mdpi/ic_launcher.png" density="mdpi" />
         <icon src="resources/android/drawable-hdpi/ic_launcher.png" density="hdpi" />
