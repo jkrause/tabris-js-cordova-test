@@ -1,6 +1,5 @@
 var pages = [
   "./modules/ToastPage",
-  "./modules/BadgePage",
   "./modules/MotionPage",
   "./modules/DialogPage",
   "./modules/NetworkPage",
